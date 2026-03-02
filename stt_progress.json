@@ -1,0 +1,67 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-03-02T18:52:34.246499",
+      "status": "processing",
+      "file": "/root/.openclaw/media/inbound/file_0---c1a4b6e9-8b5b-4dbb-84e5-b2cfb5a13e20.ogg"
+    },
+    {
+      "timestamp": "2026-03-02T19:01:48.952131",
+      "status": "processing",
+      "file": "/root/.openclaw/media/inbound/file_0---c1a4b6e9-8b5b-4dbb-84e5-b2cfb5a13e20.ogg"
+    },
+    {
+      "timestamp": "2026-03-02T19:02:11.153740",
+      "status": "failed",
+      "file": "/root/.openclaw/media/inbound/file_0---c1a4b6e9-8b5b-4dbb-84e5-b2cfb5a13e20.ogg",
+      "error": "[Errno 2] No such file or directory: 'ffmpeg'"
+    },
+    {
+      "timestamp": "2026-03-02T19:05:56.764327",
+      "status": "processing",
+      "file": "/root/.openclaw/media/inbound/file_0---c1a4b6e9-8b5b-4dbb-84e5-b2cfb5a13e20.ogg"
+    },
+    {
+      "timestamp": "2026-03-02T19:06:11.576916",
+      "status": "completed",
+      "file": "/root/.openclaw/media/inbound/file_0---c1a4b6e9-8b5b-4dbb-84e5-b2cfb5a13e20.ogg",
+      "result": {
+        "text": " Yes, please help me analyze the beatbox.",
+        "language": "en",
+        "segments": [
+          {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 4.0,
+            "text": " Yes, please help me analyze the beatbox.",
+            "tokens": [
+              50364,
+              1079,
+              11,
+              1767,
+              854,
+              385,
+              12477,
+              264,
+              4224,
+              4995,
+              13,
+              50564
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.6523047227125901,
+            "compression_ratio": 0.8333333333333334,
+            "no_speech_prob": 0.056798193603754044
+          }
+        ],
+        "source": "local_whisper"
+      }
+    }
+  ],
+  "stats": {
+    "total_processed": 1,
+    "total_failed": 1
+  },
+  "last_updated": "2026-03-02T19:06:11.576938"
+}
