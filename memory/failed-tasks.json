@@ -1,0 +1,8 @@
+{
+  "failed_tasks": [],
+  "retry_policy": {
+    "max_retries": 3,
+    "backoff_ms": [1000, 5000, 15000]
+  },
+  "last_check": "2026-03-03T13:52:00+08:00"
+}

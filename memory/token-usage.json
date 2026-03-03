@@ -1,0 +1,14 @@
+{
+  "date": "2026-03-03",
+  "records": [],
+  "daily_summary": {
+    "total_requests": 0,
+    "total_tokens_input": 0,
+    "total_tokens_output": 0,
+    "estimated_cost_usd": 0
+  },
+  "monthly_total": {
+    "month": "2026-03",
+    "total_cost_usd": 0
+  }
+}
